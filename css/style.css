@@ -1,0 +1,169 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #001d3d;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+main {
+    flex: 1;
+  }
+
+nav{
+    background-color: #003049;
+    
+} 
+.container-nav{
+    justify-items: center;
+}
+.subcontainer-nav{
+
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    margin: 0px;
+}
+nav ul li {
+    list-style: none;
+
+}
+.container-footer{
+    display: block;
+    background-color:#003566 ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.subcontainer-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 35px;
+}
+
+.container-redes{
+    display: flex;
+    gap: 20px;
+}
+.fab{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+iframe{
+    border-radius: 15px;
+}
+
+/* Productos */
+
+.container-productos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    
+    margin-top: 40px;
+}
+
+.card-productos{
+    background-color: #033461;
+    border: 2px white solid;
+    border-radius: 25px;
+    padding: 25px;
+   
+    
+
+}
+.card-productos:hover{
+
+    box-shadow: 10px 0px 20px 15px white;
+    padding: 50px;
+}
+
+/*Reseña*/
+
+.container-reseña{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px;
+    margin: 30px;
+}
+
+@media (max-width: 781px){
+    .container-reseña{
+        grid-template-columns: repeat(2 ,1fr);
+       
+}
+}
+
+.card-reseña {
+    background-color: #033461;
+    border: 2px white solid;
+    border-radius: 25px;
+    padding: 25px;
+   
+}
+
+/* Formulario */
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
+
+.subcontainer-form {
+    display: grid;
+    padding: 35px;
+    background-color: #264653;
+    border-radius: 25px;
+
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+@media (min-width: 481px){
+    .subcontainer-form{
+        width: 70%;
+        background-color: #2a9d8f;
+       
+}
+}
+
+@media (min-width: 769px){
+    .subcontainer-form{
+        width: 50%;
+        background-color: #e9c46a;
+}
+}
+
+
+@media (min-width: 1024px){
+    .subcontainer-form{
+        width: 40%;
+        background-color: #e76f51;
+}
+}
+
+@media (min-width: 1280px){
+    .subcontainer-form{
+        width: 30%;
+        background-color: #e76f51;
+}
+}

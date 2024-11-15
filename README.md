@@ -31,10 +31,7 @@ Para los Estilos se uso:
 
 5. **Contenido Multimedia y Navegación**
 - Agregue un mapa de Google en el footer
-
-
-  [![Google Maps Street View](https://i0.wp.com/folou.co/wp-content/uploads/2020/02/googlemaps-15.jpg?fit=1200%2C675&ssl=1)](https://www.google.com/maps/@-34.6037688,-58.3813474,3a,90y,277.69h,86.39t/data=!3m7!1e1!3m5!1sQpUzEkC7iZH8vDf8Fqp0JQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.614160263446763%26panoid%3DQpUzEkC7iZH8vDf8Fqp0JQ%26yaw%3D277.68846762691237!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D)
-
+  [(https://i0.wp.com/folou.co/wp-content/uploads/2020/02/googlemaps-15.jpg?fit=1200%2C675&ssl=1)](https://www.google.com/maps/@-34.6037688,-58.3813474,3a,90y,277.69h,86.39t/data=!3m7!1e1!3m5!1sQpUzEkC7iZH8vDf8Fqp0JQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.614160263446763%26panoid%3DQpUzEkC7iZH8vDf8Fqp0JQ%26yaw%3D277.68846762691237!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D)
 - Se puede navegar entre las diferentes paginas usan los link del navbar
 6. **Subida del Proyecto.**
 - El Proyecto esta subido en el hosting gratuito [Netlify](https://www.netlify.com/)

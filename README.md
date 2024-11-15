@@ -31,6 +31,4 @@ Para los Estilos se uso:
 6. **Subida del Proyecto.**
 - El Proyecto esta subido en el hosting gratuito [Netlify](https://www.netlify.com/)
 
-<p align="center">
 ## [IR A LA PAGINA](https://storev1talentotech.netlify.app/)
-</p>

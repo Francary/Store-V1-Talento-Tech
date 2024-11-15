@@ -21,6 +21,7 @@ nav{
     
 } 
 .container-nav{
+    display: grid;
     justify-items: center;
 }
 .subcontainer-nav{

@@ -19,8 +19,8 @@
 
 3. **Estilos Básicos Aplicados con CSS**
 Para los Estilos se uso:
-- Un archivo  externo **styles.css**
-- Bootstrap@ 
+- Estilos propio con en el archivo **styles.css**
+- Estilos de  framework [Bootstrap@](https://getbootstrap.com/)
 - Fuentes de [Google Fonts](https://fonts.google.com/)
 - Iconos de [Font Awesome](https://fontawesome.com/)
 
@@ -29,3 +29,7 @@ Para los Estilos se uso:
 5. **Contenido Multimedia y Navegación**
 
 6. **Subida del Proyecto.**
+- El Proyecto esta subido en el hosting gratuito [Netlify](https://www.netlify.com/)
+
+
+## [IR A LA PAGINA](https://storev1talentotech.netlify.app/)

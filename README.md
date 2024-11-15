@@ -31,7 +31,7 @@ Para los Estilos se uso:
 
 5. **Contenido Multimedia y Navegación**
 - Agregue un mapa de Google en el footer
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167125041007!2d-58.3815704!3d-34.603738899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1731539226475!5m2!1ses!2sar" width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  [(https://i0.wp.com/folou.co/wp-content/uploads/2020/02/googlemaps-15.jpg?fit=1200%2C675&ssl=1)](https://www.google.com/maps/@-34.6037688,-58.3813474,3a,90y,277.69h,86.39t/data=!3m7!1e1!3m5!1sQpUzEkC7iZH8vDf8Fqp0JQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.614160263446763%26panoid%3DQpUzEkC7iZH8vDf8Fqp0JQ%26yaw%3D277.68846762691237!7i16384!8i8192?hl=es&entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D)
 - Se puede navegar entre las diferentes paginas usan los link del navbar
 6. **Subida del Proyecto.**
 - El Proyecto esta subido en el hosting gratuito [Netlify](https://www.netlify.com/)

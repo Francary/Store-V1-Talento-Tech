@@ -1,4 +1,4 @@
-# PRE ENTREGA TALENTO TECH
+# ENTREGA FINAL TALENTO TECH
 
 1. **Estructura Básica de HTML.**
     La estructura html esta dividido con etiquetas semanticas.

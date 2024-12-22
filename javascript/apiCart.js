@@ -5,7 +5,8 @@ const buscarProductos = async () => {
         // Recuperar el carrito del localStorage
         let cart = JSON.parse(localStorage.getItem("Pedido")) || [];
         document.getElementById("container-productos").innerHTML = '';
-
+        // let totalCompra = 0
+               
         cart.forEach(async (item, index) => {
             const id = item.id 
             const URL = `https://api.pexels.com/v1/photos/${id}`
@@ -21,7 +22,10 @@ const buscarProductos = async () => {
             // Funcion de para calcular un precio segun el id del Producto
 
             let precio = Math.round(data.id / (1 + '0'.repeat(Number(data.id.toString().length - 2))))
+            
+        //   totalCompra += precio
 
+            
             let cardProducto =
             `    
             <div class="card-productos">
@@ -30,13 +34,17 @@ const buscarProductos = async () => {
                 <button onclick="deleteItem(${index})" class="btn btn-danger">Eliminar</button>
             </div>
             `
-          
+            
             document.getElementById("container-productos").insertAdjacentHTML("beforeend", cardProducto)
+            // document.getElementById("total-compra").innerHTML = `${cart.length >= 0 ? `<h3>Total Pedido: U$D  ${totalCompra} </h3>` : "Aun no Agregas un Producto al Carrito" } `
+           
+            
         })
     } catch (error) {
 
     }
 
 }
+
 
 buscarProductos()

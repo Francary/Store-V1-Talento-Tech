@@ -39,9 +39,9 @@ Para los Estilos se uso:
 - Se uso la API [PEXELS](https://www.pexels.com/es-es/api/documentation/)
 
 7. **Funcionalidades.**
-- Pagina[INDEX](hhttps://storev1talentotech.netlify.app/) Se Agrego un Carousel usando Bootstrap@
-- Pagina[PRODUCTOS](https://storev1talentotech.netlify.app/pages/productos) Se puede agregar productos al CART y Actualiza la cantidad de productos en en CART
-- Pagina[CART](https://storev1talentotech.netlify.app/pages/cart) Se puede eliminar un producto, todo el pedido o finalizar el pedito y Actualiza la cantidad de productos en en CART
+- Pagina [INDEX](hhttps://storev1talentotech.netlify.app/) Se Agrego un Carousel usando Bootstrap@
+- Pagina [PRODUCTOS](https://storev1talentotech.netlify.app/pages/productos) Se puede agregar productos al CART y Actualiza la cantidad de productos en en CART
+- Pagina [CART](https://storev1talentotech.netlify.app/pages/cart) Se puede eliminar un producto, todo el pedido o finalizar el pedito y Actualiza la cantidad de productos en en CART
 
 8. **Subida del Proyecto.**
 - El Proyecto esta subido en el hosting gratuito [Netlify](https://www.netlify.com/)

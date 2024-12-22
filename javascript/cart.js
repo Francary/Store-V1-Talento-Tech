@@ -15,7 +15,7 @@ const deleteItem = (index) => {
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
         `
             <h3>Eliminastes todos los platos del Pedido</h3>
-            <a href="/index.html">
+            <a href="productos.html">
                 <button class="btn btn-primary"> Ir A Comprar</button>
             <a>
         `
@@ -33,7 +33,7 @@ const finalizarPedido =() =>{
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pago procesado Correctamente !</h3>
-            <a href="/index.html">
+            <a href="productos.html">
                 <button class="btn btn-primary"> Volver a Comprar</button>
             <a>
         
@@ -52,7 +52,7 @@ const eliminarPedido =() =>{
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pedido Eliminado Correctamente!</h3>
-            <a href="/index.html">
+            <a href="productos.html">
                 <button class="btn btn-primary"> Ir A Comprar</button>
             <a>
         

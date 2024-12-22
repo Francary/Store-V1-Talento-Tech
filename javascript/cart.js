@@ -19,6 +19,7 @@ const deleteItem = (index) => {
                 <button class="btn btn-primary"> Ir A Comprar</button>
             <a>
         `
+        contador()
     }else{
         sumaCompra()
     }

@@ -73,6 +73,17 @@ iframe{
     border-radius: 15px;
 }
 
+.contador {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color:  crimson;
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;     
+    position: absolute;
+    margin: -8px 0px 0px -8px ;
+}
 /* Productos */
 
 .container-productos{

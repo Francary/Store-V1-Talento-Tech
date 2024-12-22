@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Vincular Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- Vincular Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Vincular Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Vincular CSS Propio -->
     <link rel="stylesheet" href="/css/style.css">
     <title>Mi Shop</title>
 </head>
+
 <body>
     <header>
         <nav class="container-nav ">
@@ -36,14 +41,118 @@
             </ul>
         </nav>
     </header>
-    <main class="container-main">
-        <section class="container-productos" id="container-productos">
-          
-        </section>
+   <main class="container-main">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+ 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="sub-carousel-menu">
+
+                        <img src="https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block w-50" alt="...">
+                            <div>
+                                <h3>
+                                    Nuestros Chefs: Maestros de la Cocina
+                                </h3>
+                                <p>En nuestra cocina, la magia ocurre gracias a un equipo de chefs apasionados y altamente
+                                    experimentados. Cada uno de ellos es un verdadero artista culinario, con años de experiencia
+                                    perfeccionando recetas, explorando sabores y creando platos que deleitan los sentidos.</p>
+                                <p>  Nuestros chefs han trabajado en reconocidos restaurantes alrededor del mundo, lo que les ha
+                                    permitido fusionar técnicas internacionales con un toque único y personal. Desde la
+                                    delicadeza de la gastronomía francesa hasta la intensidad de los sabores latinoamericanos,
+                                    nuestros maestros de la cocina garantizan una experiencia inigualable en cada bocado.</p>
+                                <p>  Lo que realmente diferencia a nuestros chefs es su dedicación a utilizar ingredientes
+                                    frescos y de la más alta calidad. Cada plato está diseñado con un equilibrio perfecto de
+                                    texturas, aromas y sabores, asegurando una experiencia gastronómica que se quedará en tu
+                                    memoria.</p>
+                                <p>Ya sea que vengas a disfrutar de un platillo clásico o a probar una creación innovadora,
+                                    puedes estar seguro de que cada detalle ha sido cuidadosamente pensado por nuestro talentoso
+                                    equipo. ¡Déjate sorprender por la pasión, el talento y la experiencia de nuestros chefs!</p>
+                                    <a href="/pages/productos.html">
+                                        <button class="btn btn-primary">Hacer Pedido</button>
+                                    </a>
+                                </div>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="sub-carousel-menu">
+                        <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+                            class="d-block w-50" alt="...">
+                            <div>
+                                <h3>
+                                    Nuestro Plato Estrella: ¡Hamburguesa con Papas Fritas!
+                                </h3>
+                                <p>  Nuestra hamburguesa está hecha con carne 100% de la mejor calidad, jugosa y perfectamente
+                                    sazonada, cocinada a la perfección para resaltar su sabor. Acompañada de ingredientes
+                                    frescos como lechuga crujiente, tomate maduro, queso derretido y nuestro pan artesanal
+                                    recién horneado, cada bocado es una explosión de sabor.</p>
+                                <p>  Y, por supuesto, no podemos olvidarnos de las papas fritas. Doradas, crujientes por fuera y
+                                    tiernas por dentro, son el acompañamiento perfecto para nuestra hamburguesa. Preparadas al
+                                    momento, son irresistibles para todos los amantes de lo auténtico.</p>
+                                <p>      Ya sea para disfrutarla en un almuerzo casual o como el cierre ideal para tu día, nuestra
+                                    hamburguesa con papas fritas es la razón por la que muchos vuelven una y otra vez. ¡Ven y
+                                    pruébala, te garantizamos que será amor al primer bocado!</p>
+                                    <a href="/pages/productos.html">
+                                        <button class="btn btn-primary">Hacer Pedido</button>
+                                    </a>
+                            </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="sub-carousel-menu">
+
+                        <img src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+                            class="d-block w-50" alt="...">
+                            <div>
+                                <h3>
+                                    Nuestro Postre Estrella: ¡Pay de Frambuesas!
+                                </h3>
+                                <p>El broche de oro perfecto para cualquier comida es nuestro delicioso pay de frambuesas, un
+                                    postre que combina lo dulce y lo fresco en cada bocado.</p>
+                                <p>  Nuestra receta única comienza con una base de masa artesanal, horneada hasta lograr una
+                                    textura crujiente y dorada que se deshace en la boca. El relleno, elaborado con frambuesas
+                                    frescas y jugosas, ofrece un equilibrio perfecto entre dulzura y un toque sutilmente ácido
+                                    que realza su sabor natural.</p>
+                                <p>Para coronarlo, añadimos un delicado glaseado y, si lo deseas, una porción de crema batida o
+                                    una bola de helado de vainilla que lo eleva aún más.</p>
+                                <p>      Cada pay se prepara con ingredientes seleccionados y mucho amor, asegurando un postre que no
+                                    solo satisface el paladar, sino que también deleita los sentidos. Es el favorito de quienes
+                                    buscan una experiencia dulce y refrescante, ideal para compartir o disfrutar solo.</p>
+                                <p>    ¡No te pierdas la oportunidad de probar nuestro pay de frambuesas y descubrir por qué es el
+                                    favorito de nuestros clientes!</p>
+                                    <a href="/pages/productos.html">
+                                        <button class="btn btn-primary">Hacer Pedido</button>
+                                    </a>
+                                    
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
     <footer class="container-footer">
         <div class="subcontainer-footer">
-            <div >
+            <div>
                 <p>Siguenos:</p>
                 <div class="container-redes">
 
@@ -66,13 +175,16 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        
+
     </footer>
 
 
-<!-- Vincular Bootstrap Script -->
- <script src="/javascript/cart.js"></script>
- <script src="/javascript/api.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous"></script>
+    <!-- Vincular Bootstrap Script -->
+    <script src="/javascript/cart.js"></script>
+    <script src="/javascript/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

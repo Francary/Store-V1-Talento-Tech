@@ -189,3 +189,21 @@ iframe{
         background-color: #e76f51;
 }
 }
+.sub-carousel-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+.carousel-inner{
+  margin-top:10% ;
+   
+}
+.sub-carousel-menu div{
+    margin-right: 1%;
+}
+.sub-carousel-menu img{
+    margin-left: 1%; 
+    max-height:   50vh;
+    max-width: 50vh;
+}

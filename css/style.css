@@ -16,6 +16,11 @@ main {
     flex: 1;
   }
 
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
 nav{
     background-color: #003049;
     
@@ -76,7 +81,6 @@ iframe{
     flex-wrap: wrap;
     align-items: center;
     justify-content:flex-start;
-    
     margin-top: 40px;
 }
 

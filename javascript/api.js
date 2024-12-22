@@ -36,7 +36,7 @@ const buscarProductos = async () => {
             <div class="card-productos">
                 <img class="producto" src="${data.src.tiny}" alt="${data.alt}">
                 <p> U$D ${precio}</p>
-                <button class="btn btn-primary">Pedir</button>
+                <button onclick="getCart(${data.id})"class="btn btn-primary">Pedir</button>
             </div>
         `
 

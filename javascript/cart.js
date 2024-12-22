@@ -4,6 +4,7 @@ const getCart = (id) =>{
     cart.push({id})
     alert(`Se Agrego al carrito ${id}`)
     localStorage.setItem("Pedido", JSON.stringify(cart));
+    contador()
 }
 
 const deleteItem = (index) => {
@@ -94,6 +95,12 @@ const sumaCompra = () =>{
    
 }
 sumaCompra()
+
+const contador = () =>{
+    let contador = cart.length
+    document.getElementById("contador").textContent = contador
+    console.log(contador)
+}
 
 window.addEventListener("beforeunload",()=>{
     localStorage.setItem("Pedido",JSON.stringify(cart))

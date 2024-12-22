@@ -11,14 +11,15 @@ const deleteItem = (index) => {
     let cart = JSON.parse(localStorage.getItem("Pedido")) || [];      
     cart.splice(index, 1);
     localStorage.setItem("Pedido", JSON.stringify(cart));
-    console.log(cart.length);   
-    buscarProductos();
+    buscarProductosCart();
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
-        ` <h3>Eliminastes todos los platos del Pedido</h3>
-        
+        `
+            <h3>Eliminastes todos los platos del Pedido</h3>
+            <a href="/index.html">
+                <button class="btn btn-primary"> Ir A Comprar</button>
+            <a>
         `
     }else{
-
         sumaCompra()
     }
 };
@@ -26,7 +27,8 @@ const deleteItem = (index) => {
 const finalizarPedido =() =>{
     localStorage.removeItem("Pedido")
     alert("Pago Procesado Correctamente")
-    buscarProductos()
+    contador()
+    buscarProductosCart()
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pago procesado Correctamente !</h3>
@@ -44,7 +46,8 @@ const finalizarPedido =() =>{
 const eliminarPedido =() =>{
     localStorage.removeItem("Pedido")
     alert("Pedido Eliminado")
-    buscarProductos()
+    contador()
+    buscarProductosCart()
     if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pedido Eliminado Correctamente!</h3>
@@ -86,7 +89,7 @@ const sumaCompra = () =>{
                 ` 
                 :
                     "Aun no Agregas un Producto al Carrito 5" } `
-            console.log(totalCompra);
+            // console.log(totalCompra);
             
         })
     } catch (error) {
@@ -98,8 +101,7 @@ sumaCompra()
 
 const contador = () =>{
     let contador = cart.length
-    document.getElementById("contador").textContent = contador
-    console.log(contador)
+    document.getElementById("contador").textContent = contador  
 }
 
 window.addEventListener("beforeunload",()=>{

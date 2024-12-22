@@ -1,4 +1,4 @@
-const buscarProductos = async () => {
+const buscarProductosCart = async () => {
     try {
         const APIKEY = "6pt3k8glLgKKFcfTjanvTvZaORINjNpC3SEn76dlnIEe0D4YbLCRTXFo"
 
@@ -38,7 +38,11 @@ const buscarProductos = async () => {
             document.getElementById("container-productos").insertAdjacentHTML("beforeend", cardProducto)
             // document.getElementById("total-compra").innerHTML = `${cart.length >= 0 ? `<h3>Total Pedido: U$D  ${totalCompra} </h3>` : "Aun no Agregas un Producto al Carrito" } `
            
-            
+            const contadorCart= () =>{
+                let contador = cart.length
+                document.getElementById("contador").textContent = contador  
+            }
+            contadorCart()
         })
     } catch (error) {
 
@@ -47,4 +51,4 @@ const buscarProductos = async () => {
 }
 
 
-buscarProductos()
+buscarProductosCart()

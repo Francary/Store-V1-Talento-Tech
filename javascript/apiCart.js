@@ -39,8 +39,16 @@ const buscarProductosCart = async () => {
             // document.getElementById("total-compra").innerHTML = `${cart.length >= 0 ? `<h3>Total Pedido: U$D  ${totalCompra} </h3>` : "Aun no Agregas un Producto al Carrito" } `
            
             const contadorCart= () =>{
-                let contador = cart.length
-                document.getElementById("contador").textContent = contador  
+            
+    let contador = cart.length
+    if(cart.length>0){
+
+        document.getElementById("contador").textContent = contador  
+        document.getElementById("contador").classList.add("contador")
+    }else{
+        document.getElementById("contador").textContent = ""
+        document.getElementById("contador").classList.remove("contador")
+    }
             }
             contadorCart()
         })

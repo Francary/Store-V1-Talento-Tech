@@ -102,9 +102,19 @@ sumaCompra()
 
 const contador = () =>{
     let contador = cart.length
-    document.getElementById("contador").textContent = contador  
-}
+    console.log(`Hola ${contador}`);
+    
+    if(cart.length>0){
 
-window.addEventListener("beforeunload",()=>{
-    localStorage.setItem("Pedido",JSON.stringify(cart))
-    });
+        document.getElementById("contador").textContent = contador  
+        document.getElementById("contador").classList.add("contador")
+    }else{
+        document.getElementById("contador").textContent = ""
+        document.getElementById("contador").classList.remove("contador")
+    }
+}
+contador()
+
+// window.addEventListener("beforeunload",()=>{
+//     localStorage.setItem("Pedido",JSON.stringify(cart))
+//     });

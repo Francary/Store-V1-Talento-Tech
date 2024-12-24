@@ -47,5 +47,5 @@ const buscarProductos = async () => {
     }
     
 }
-contador()
+// contador()
 buscarProductos()

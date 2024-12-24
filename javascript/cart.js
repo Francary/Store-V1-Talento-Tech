@@ -1,4 +1,4 @@
-let cart = []
+let cart = JSON.parse(localStorage.getItem("Pedido")) || []
 
 const getCart = (id) =>{
     cart.push({id})
@@ -12,7 +12,7 @@ const deleteItem = (index) => {
     cart.splice(index, 1);
     localStorage.setItem("Pedido", JSON.stringify(cart));
     buscarProductosCart();
-    if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
+    if(cart.length === 0 || !cart ){document.getElementById("total-compra").innerHTML = 
         `
             <h3>Eliminastes todos los platos del Pedido</h3>
             <a href="productos.html">
@@ -30,7 +30,8 @@ const finalizarPedido =() =>{
     alert("Pago Procesado Correctamente")
     contador()
     buscarProductosCart()
-    if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
+    let cart = JSON.parse(localStorage.getItem("Pedido")) || []
+    if(cart.length === 0 || !cart ){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pago procesado Correctamente !</h3>
             <a href="productos.html">
@@ -49,7 +50,8 @@ const eliminarPedido =() =>{
     alert("Pedido Eliminado")
     contador()
     buscarProductosCart()
-    if(cart.length === 0 ){document.getElementById("total-compra").innerHTML = 
+    let cart = JSON.parse(localStorage.getItem("Pedido")) || []
+    if(cart.length === 0 || !cart){document.getElementById("total-compra").innerHTML = 
         ` 
             <h3>Pedido Eliminado Correctamente!</h3>
             <a href="productos.html">
@@ -101,8 +103,8 @@ const sumaCompra = () =>{
 sumaCompra()
 
 const contador = () =>{
+    let cart = JSON.parse(localStorage.getItem("Pedido")) || []
     let contador = cart.length
-    console.log(`Hola ${contador}`);
     
     if(cart.length>0){
 

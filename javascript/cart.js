@@ -1,5 +1,5 @@
 let cart = JSON.parse(localStorage.getItem("Pedido")) || []
-
+//Agregar un Producto al Cart
 const getCart = (id) =>{
     cart.push({id})
     alert(`Se Agrego al carrito ${id}`)

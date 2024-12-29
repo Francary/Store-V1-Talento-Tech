@@ -120,3 +120,14 @@ contador()
 // window.addEventListener("beforeunload",()=>{
 //     localStorage.setItem("Pedido",JSON.stringify(cart))
 //     });
+// Actualiza Fain Icon en Navidad
+const fainIcon = () =>{
+    if( new Date().getMonth() === 11 ){
+        document.getElementById("fain-icon").href="/img/logoNavidad.ico"    
+        document.getElementById("logo").src="/img/logoNavidad.png"    
+    }else{
+        document.getElementById("fain-icon").href="/img/logo.ico"
+        document.getElementById("logo").src="/img/logo.png"
+    }
+}
+fainIcon()
